@@ -2,6 +2,6 @@ const configValues = require("./config");
 
 module.exports = {
     getDbConnectionString: function(){
-        return `mongodb+srv://${configValues.username}:${configValues.password}@learmongodb-m5zsf.gcp.mongodb.net/NodeTodoApp`;
+        return "mongodb+srv://manhhung94qn:764119@todoexpress-ui1if.mongodb.net/todoExpress?retryWrites=true&w=majority";
     }
 }
