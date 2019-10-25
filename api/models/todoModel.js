@@ -1,10 +1,10 @@
-const mongoose = require("mongoose");
+let mongoose = require("mongoose");
 
 let Schema = mongoose.Schema;
 
 let todoSchema = new Schema({
     text: String,
-    isDone: Boolean
+    isDone: Boolean,
 });
 
 let Todos = mongoose.model("Todos", todoSchema);
