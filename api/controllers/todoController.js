@@ -23,7 +23,5 @@ module.exports = function(app){
             }
         });
     });
-    app.post("/api/todo", function(req,res){
-        
-    })
+    
 }
